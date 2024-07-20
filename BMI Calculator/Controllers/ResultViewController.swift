@@ -9,11 +9,23 @@
 import UIKit
 
 class ResultViewController: UIViewController {
+    
+    var bmi: BMI?
 
+    @IBOutlet weak var bmiLabel: UILabel!
+    @IBOutlet weak var adviceLabel: UILabel!
+    @IBOutlet var backGround: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+                
+        bmiLabel.text = "\(String(format: "%.2f", bmi?.value ?? "0.0"))"
+        adviceLabel.text = bmi?.advice
+        backGround.backgroundColor = bmi?.Color
+        
+    }
+    @IBAction func recalculatePressed(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
     }
     
 
