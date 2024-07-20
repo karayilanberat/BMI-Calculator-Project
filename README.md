@@ -25,9 +25,8 @@ This project is a simple Body Mass Index (BMI) calculator app built using Swift.
 
 ## Screenshots
 
-<img src="https://github.com/user-attachments/assets/1f76f47a-1d68-4d72-a310-a55440c6f646" width="300">
-
-<img src="https://github.com/user-attachments/assets/b2ca462c-7e4a-4493-b0ae-2f293794f393" width="300">
+<img src="https://github.com/user-attachments/assets/ed9ef681-b8aa-42db-a7ef-0c9b84a9b7b7" width="300">
+<img src="https://github.com/user-attachments/assets/7d973494-ddd4-4a98-aa77-5e5237ef5573" width="300">
 
 ## Usage
 
